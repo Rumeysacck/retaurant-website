@@ -27,6 +27,7 @@ Bir İtalyan pizza restoranı olan Pizza Romano'nun web sitesini tasarladığım
 <br/>
 <br/>
 ### ÖZELLİKLER <br/>
+Tasarımı oluştururken sadeliğe önem verdiğimiz sitemizin yüksek performanslı olmasına da özen gösterdik. Home, about, menu, review ve contect kısımlarından oluşan sitemizde home sitemizin giriş noktasıdır ve genel bir bakış sağlar. About kısmından restoran ile ilgili bilgi edinebilir, menu kısmından restoranın menüsüne göz gezdirebilirsiniz. İletişime geçmek istiyorsanız da contect bölümünü kullanabilirsiniz.
 <br/>
 <br/>
 
@@ -51,3 +52,17 @@ Sayfada kullanılan renklerin hızlıca seçilmesi için tanımlanan css kodlar�
     --border: 0.1rem solid rgba(255,255,255,0.4);
 }
 ```
+<br/>
+<br/>
+
+### PROJEYİ GELİŞTİREN KİŞİLER <br/>
+###### Rumeysa Çiçek
+[github linki](https://github.com/Rumeysacck) <br/>
+[linkedin linki](https://www.linkedin.com/in/rumeysa-%C3%A7i%C3%A7ek-6a146724b/)
+<br/>
+###### Melike Budak
+[github linki](https://github.com/melikebdkk) <br/>
+[linkedin linki](https://www.linkedin.com/in/melike-budak-998b12249)
+<br/>
+###### Beliz Binyal
+[linkedin linki](https://www.linkedin.com/in/beliz-binyal-0b4903265)
