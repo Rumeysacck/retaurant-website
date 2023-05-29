@@ -21,11 +21,11 @@ searchBtn.addEventListener("click", function(){
 });
 
 cartBtn.addEventListener("click", function(){
-    cartItem.classList.toggle("active"); /*search ikonuna tıklanınca search-bar açılıyor ama sadece ikona tıklayınca kapanır */
+    cartItem.classList.toggle("active"); 
     document.addEventListener("click",function(e){
         if(
-            !e.composedPath().includes(cartBtn) && /*başka yere tıklanırsa kapansın*/
-            !e.composedPath().includes(cartItem) /*sadece search-bar içerisine tıklanırsa kapanmayacak */
+            !e.composedPath().includes(cartBtn) && 
+            !e.composedPath().includes(cartItem) 
             ){
             cartItem.classList.remove("active")
         }
@@ -33,11 +33,11 @@ cartBtn.addEventListener("click", function(){
 });
 
 menuBtn.addEventListener("click", function(){
-    navbar.classList.toggle("active"); /*search ikonuna tıklanınca search-bar açılıyor ama sadece ikona tıklayınca kapanır */
+    navbar.classList.toggle("active"); 
     document.addEventListener("click",function(e){
         if(
-            !e.composedPath().includes(menuBtn) && /*başka yere tıklanırsa kapansın*/
-            !e.composedPath().includes(navbar) /*sadece search-bar içerisine tıklanırsa kapanmayacak */
+            !e.composedPath().includes(menuBtn) && 
+            !e.composedPath().includes(navbar) 
             ){
                 navbar.classList.remove("active")
         }

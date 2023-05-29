@@ -24,13 +24,13 @@
 
 /*şu anda base html kısmında bulunan tüm bu kodlar sayfanın tamamında etkili olacak*/
 html{
-    font-size: 62.5%; /*1rem 16px standart, ancak bu satırla 1rem=10px yaptık*/
-    overflow-x: hidden; /*yatayda taşma olursa scroll bar açılmasını engellemek için yazıldı*/
+    font-size: 62.5%; 
+    overflow-x: hidden; 
     scroll-padding-top: 9rem; /*scroll özellikleri tanımlanıyor*/
     scroll-behavior: smooth; /*scroll için yumuşaklık ayarı*/
 }
 
-html::-webkit-scrollbar{ /*sağdaki varsayılan scrollbar yerine bizim özelleştirdiğimiz barı yazıyoruz*/
+html::-webkit-scrollbar{ 
     width: 0.8rem;
     background-color: #fff;
 }
@@ -46,7 +46,7 @@ html::-webkit-scrollbar-thumb{
 
 body{
     background-color: var(--main-color);
-    /*height: 200vh; /*body sayfasının boyu, geçici, body şekillendirilirken silindi*/
+   
 }
 
 section{
@@ -66,7 +66,7 @@ a{
     font-size: 1.7rem;
     color: #fff;
     background-color: var(--black-color);
-    cursor: pointer; /*aslında gerek yok a etiketlerinde imleç gelince el işareti oluyor.*/
+    cursor: pointer; 
 }
 
 .btn:hover{
@@ -138,9 +138,9 @@ a{
     margin: 2rem 7%;
     border-radius: 30rem;
     box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
-    position: sticky;/* position ve top satırları sayesinde header kısmı scroll yaptıkça sayfanın en üstünde kalır.*/
+    position: sticky;
     top: 0;
-    z-index: 1000; /*derinlik önceliği, üstüne bir şey gelmemesi için*/
+    z-index: 1000; 
 }
 
 .header .navbar a{
@@ -151,7 +151,7 @@ a{
 
 }
 
-.header .navbar .active, /*navbarda home kısmına class="active" eklediğimiz için bu iki satır sayesinde hangi sekmede olduğumuzu navbarda gösterecek*/
+.header .navbar .active, 
 .header .navbar a:hover{
     border-color: var(--main-color);
     padding-bottom: 0.5rem;
@@ -161,7 +161,7 @@ a{
     cursor: pointer;
     font-size: 2.5rem;
     margin-left: 2rem;
-    background-color: transparent; /* bu satır olmadığında ikonlarda hafif gri bir gölge görünüyor, onu istemiyoruz.*/
+    background-color: transparent; 
 }
 
 .header .cart-items-container{
@@ -229,11 +229,11 @@ a{
 /*! home start*/
 
 .home{
-    min-height: 100vh; /*standart bir tarayıcıdaki 1ekran kadar olan yer 100vh*/
-    background: url(../images/giris_Çalışma\ Yüzeyi\ 1.png) no-repeat;/*style klasöründen çıkıp images içerisine gir ve home.jpg kullan dedik. daha sonra jpg dosyasının tekrarlanmasını engelledik*/
-    background-size: cover; /*görseli sayfaya uydurur.*/
+    min-height: 100vh; 
+    background: url(../images/giris_Çalışma\ Yüzeyi\ 1.png) no-repeat;
+    background-size: cover; 
     background-position: center; /*ortalandı*/
-    margin-top: -14.5rem; /*sayfa kaynağından bakılarak navbarın px boyutunu eksili yazdık ki görsel tam sayfa görünsün,anlaşılmadıysa bu satırı çıkar bak.*/
+    margin-top: -14.5rem; 
     display: flex;
     align-items: center;
 }
@@ -396,7 +396,7 @@ a{
     width: 100%;
     object-fit: cover;
 }
-/* map ve form yan yana olduğu yerde ikiside tüm satırı kaplasın ancak yan yana iken eşit yer kaplasın gibi bir şey ifade ettik*/
+
 
 .contact .row form{
     flex: 1 1 45rem;
