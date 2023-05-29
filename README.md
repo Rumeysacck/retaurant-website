@@ -42,31 +42,12 @@ Menü classlarımızı oluşturduk:
 </nav>
 ```
 <br/>
-Home ve About Us seçeneklerimizin örnek html kodları:
+Sayfada kullanılan renklerin hızlıca seçilmesi için tanımlanan css kodları: <br/>
+
 ```
-                <section class="home" id="home">
-                    <div class="content">
-                        <h3>PIZZA ROMANO</h3>
-                        <p>At our restaurant, which offers delicious Italian flavors, prepared with quality ingredients, you can experience our tasty pizzas</p>
-                    </div>
-                </section>
-
-        <section class="about" id="about">
-            <h1 class="heading">about <span>us</span></h1>
-            <div class="row">
-                <div class="image">
-                    <img src="images/aboutus.jpg" alt="about">
-                </div>
-                <div class="content">
-                    <h3>Welcome to Pizza Romano!</h3>
-                    <p>Pizza Romano Restaurant was established with the mission of offering unique Italian flavors and a memorable culinary experience. We are dedicated to providing pizza enthusiasts with unforgettable tastes.
-                        Using the finest ingredients, we prepare our pizzas with special recipes. The crispy texture of our thin crust, combined with fresh vegetables, carefully selected meats, and delicious cheeses, creates a perfect balance of flavors.
-                        We offer a wide range of pizza options at our restaurant. You can make a reservation, explore our menu, and stay updated with our current promotions by visiting our website.
-                        At Pizza Romano, we are excited to bring our delicious pizzas to you. We guarantee that we will be delighted to host you and provide an unforgettable pizza experience.
-                        </p>
-
-
-                </div>
-            </div>
-        </section>
+:root{
+    --main-color: #353637; /*sayfada kullanılan renklerin hızlıca seçilebilmesi için tanımlanan kodlar*/
+    --black-color: #000000;
+    --border: 0.1rem solid rgba(255,255,255,0.4);
+}
 ```
