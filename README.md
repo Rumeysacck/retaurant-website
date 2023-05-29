@@ -17,4 +17,13 @@ Web sayfamızın JavaScript kısmı ise henüz tam anlamıyla tamamlanmamıştı
 <br/>
 ### EKRAN GÖRÜNTÜLERİ <br/>
 Restoran web sayfamızın genel görünümü bu şekildedir: <br/>
-![home png] (https://github.com/Rumeysacck/retaurant-website/blob/master/images/readme-home.png)
+![home png](https://github.com/Rumeysacck/retaurant-website/blob/master/images/readme-home.png)
+<br/>
+![about png](https://github.com/Rumeysacck/retaurant-website/blob/master/images/readme-about.png)
+<br/>
+<br/>
+### KULLANILAN TEKNOLOJİ/ÇERÇEVE <br/>
+Bir İtalyan pizza restoranı olan Pizza Romano'nun web sitesini tasarladığımız projemizde Visual Studio Code düzenleyicisiyle Html, CSS ve JavaScript dillerini kullandık. Sitemizden restoranımızla ilgili bilgi edinebilir nefis İtalyan pizzalarımızı inceleyebilirsiniz.
+<br/>
+<br/>
+### ÖZELLİKLER <br/>
